@@ -8,7 +8,7 @@ A website that showcases Tigran Balayan's portfolio.
 * CSS
 
 ## Website
-https://lernantino.github.io/run-buddy/
+placeholder
 
 ## Contribution
 Made by Tigran Balayan
