@@ -92,3 +92,24 @@ header ul span a {
     font-size: 40px;
     padding: 10px;
 }
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-title {
+    text-align: right;
+    margin: 15px 30px 30px 100px;
+    font-size: 25px;
+    color: var(--primary-color);
+}
+
+.section-text {
+    text-align: left;
+    margin: 15px;
+    padding-left: 40px;
+    border-left: 5px solid;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
