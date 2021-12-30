@@ -42,11 +42,53 @@ header h1 a {
     font-size: 25px;
     }
 
-header ul li a {
+header ul span a {
     text-decoration: none;
     color: var(--secondary-color);
     font-size: 15px;
-    padding: 10px;
+    padding: 25px;
     font-weight: bold;
     margin: 0 auto 5px auto;
+}
+
+.aboutme-line {
+    border-bottom: solid 3px;
+    border-color: var(--secondary-color);
+    padding: 3px;
+}
+
+.work-line {
+    border-bottom: solid 3px;
+    border-color: var(--secondary-color);
+    padding: 3px;
+    margin-left: 20px;
+}
+
+.contactme-line {
+    border-bottom: solid 3px;
+    border-color: var(--secondary-color);
+    padding: 3px;
+    margin-left: 20px;
+}
+
+.resume-line {
+    border-bottom: solid 3px;
+    border-color: var(--secondary-color);
+    padding: 3px;
+    margin-left: 20px;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: var(--tertiary-color);
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 100px;
+    right: 80px;
+    background-color: var(--secondary-color);
+    font-size: 40px;
+    padding: 10px;
 }
