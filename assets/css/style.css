@@ -167,3 +167,121 @@ header ul span a {
     font-size: 20px;
     font-weight: normal;
 }
+
+.small-works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    position: relative;
+    text-align: center;
+    color: var(--tertiary-color);
+}
+
+.small-works img {
+    height: 200px;
+    object-fit: contain;
+    margin-left: 13px;
+    border: 4px solid var(--secondary-color);
+    margin-right: 81px;
+}
+.work1-text {
+    position: absolute;
+    bottom: 243px;
+    left: 35px;
+    background-color: var(--secondary-color);
+    font-size: 25px;
+    padding: 15px 15px 15px 5px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.work1-text a {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.work2-text {
+    position: absolute;
+    bottom: 40px;
+    left: 35px;
+    background-color: var(--secondary-color);
+    font-size: 25px;
+    padding: 15px 15px 15px 5px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.work2-text a {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.work3-text {
+    position: absolute;
+    bottom: 243px;
+    left: 657px;
+    background-color: var(--secondary-color);
+    font-size: 25px;
+    padding: 15px 15px 15px 5px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.work3-text a {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.work4-text {
+    position: absolute;
+    bottom: 40px;
+    left: 657px;
+    background-color: var(--secondary-color);
+    font-size: 25px;
+    padding: 15px 15px 15px 5px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.work4-text a {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px 75px 15px 0;
+    margin-left: -30px;
+    margin-top: 40px;
+}
+
+.contact-info ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    border-left: 5px solid var(--primary-color);
+    padding: 8px;
+}
+
+.contact-info ul li {
+    margin: 50px;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 3px solid;
+    padding: 5px;
+}
+
+.contact-info ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: bold;
+}
+
