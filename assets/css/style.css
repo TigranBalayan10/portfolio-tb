@@ -24,7 +24,7 @@ header {
     top: 0;
     z-index: 9999;
     align-items: center;
-    padding: 15px 75px 15px 0;
+    padding: 5px 75px 5px 0;
   }
 
 header nav ul {
@@ -42,42 +42,30 @@ header h1 a {
     font-size: 25px;
     }
 
-header ul span a {
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 8px;
+}
+
+header nav ul li {
+    margin: 20px;
     text-decoration: none;
     color: var(--secondary-color);
-    font-size: 15px;
-    padding: 25px;
+    font-size: 20px;
     font-weight: bold;
-    margin: 0 auto 5px auto;
+    border-bottom: 3px solid;
 }
 
-.aboutme-line {
-    border-bottom: solid 3px;
-    border-color: var(--secondary-color);
-    padding: 3px;
+header nav ul li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 20px;
+    font-weight: bold;
 }
-
-.work-line {
-    border-bottom: solid 3px;
-    border-color: var(--secondary-color);
-    padding: 3px;
-    margin-left: 20px;
-}
-
-.contactme-line {
-    border-bottom: solid 3px;
-    border-color: var(--secondary-color);
-    padding: 3px;
-    margin-left: 20px;
-}
-
-.resume-line {
-    border-bottom: solid 3px;
-    border-color: var(--secondary-color);
-    padding: 3px;
-    margin-left: 20px;
-}
-
 .hero {
     position: relative;
     text-align: center;
@@ -171,79 +159,95 @@ header ul span a {
 .small-works {
     display: flex;
     flex-wrap: wrap;
-    justify-content: end;
-    position: relative;
-    text-align: center;
-    color: var(--tertiary-color);
+    justify-content: space-between;
 }
 
 .small-works img {
-    height: 200px;
-    object-fit: contain;
-    margin-left: 13px;
     border: 4px solid var(--secondary-color);
-    margin-right: 81px;
+    height: 200px;
+    margin: 10px 70px 0 30px;
 }
-.work1-text {
+
+.surf-report {
+    position: relative;
+    text-align: left;
+}
+
+.surf-report-text {
     position: absolute;
-    bottom: 243px;
-    left: 35px;
+    bottom: 70px;
+    left: 30px;
     background-color: var(--secondary-color);
-    font-size: 25px;
-    padding: 15px 15px 15px 5px;
+    font-size: 30px;
+    padding: 15px 30px 15px 10px;
     text-align: left;
     font-weight: bold;
 }
 
-.work1-text a {
+.surf-report-text a {
     font-size: 20px;
     font-weight: normal;
 }
 
-.work2-text {
+.led-wall {
+    position: relative;
+    text-align: left;
+}
+
+.led-wall-text {
     position: absolute;
-    bottom: 40px;
-    left: 35px;
+    bottom: 70px;
+    left: 30px;
     background-color: var(--secondary-color);
-    font-size: 25px;
-    padding: 15px 15px 15px 5px;
+    font-size: 30px;
+    padding: 15px 30px 15px 10px;
     text-align: left;
     font-weight: bold;
 }
 
-.work2-text a {
+.led-wall-text a {
     font-size: 20px;
     font-weight: normal;
 }
 
-.work3-text {
+.calculator {
+    position: relative;
+    text-align: left;
+}
+
+.calculator-text {
     position: absolute;
-    bottom: 243px;
-    left: 657px;
+    bottom: 70px;
+    left: 30px;
     background-color: var(--secondary-color);
-    font-size: 25px;
-    padding: 15px 15px 15px 5px;
+    font-size: 30px;
+    padding: 15px 30px 15px 10px;
     text-align: left;
     font-weight: bold;
 }
 
-.work3-text a {
+.calculator-text a {
     font-size: 20px;
     font-weight: normal;
 }
 
-.work4-text {
+.pastel-puzzels {
+    position: relative;
+    text-align: left;
+}
+
+.pastel-puzzels-text {
     position: absolute;
-    bottom: 40px;
-    left: 657px;
+    bottom: 70px;
+    left: 30px;
     background-color: var(--secondary-color);
-    font-size: 25px;
-    padding: 15px 15px 15px 5px;
+    font-size: 30px;
+    padding: 15px 30px 15px 10px;
     text-align: left;
     font-weight: bold;
 }
 
-.work4-text a {
+.pastel-puzzels-text a {
     font-size: 20px;
     font-weight: normal;
 }
