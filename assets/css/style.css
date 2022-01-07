@@ -14,6 +14,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
   }
 
+
 header {
     background-color: var(--tertiary-color);
     display: flex;
@@ -66,6 +67,12 @@ header nav ul li a {
     font-size: 20px;
     font-weight: bold;
 }
+
+header nav ul li a:hover {
+    background: var(--secondary-color);
+    color: var(--tertiary-color);
+    text-shadow: none;
+}
 .hero {
     position: relative;
     text-align: center;
@@ -93,14 +100,14 @@ header nav ul li a {
     font-size: 25px;
     color: var(--primary-color);
     font-weight: bold;
+    border-right: 5px solid;
+    padding: 23px;
 }
 
 .section-text {
     text-align: left;
-    margin: 15px;
-    padding-left: 40px;
-    border-left: 5px solid;
-    border-color: var(--primary-color);
+    margin-top: 30px;
+    margin-right: 155px;
     color: var(--primary-color);
 }
 
@@ -118,11 +125,6 @@ header nav ul li a {
     padding-right: 15px;
 }
 
-.run-buddy img {
-    max-width: 100%;
-    border: solid 5px;
-    border-color: var(--secondary-color);
-}
 
 .works {
     display: flex;
@@ -138,6 +140,16 @@ header nav ul li a {
     position: relative;
     text-align: center;
     color: var(--tertiary-color);
+}
+
+.run-buddy:hover {
+    opacity: 80%;
+}
+
+.run-buddy img {
+    max-width: 100%;
+    border: solid 5px;
+    border-color: var(--secondary-color);
 }
 
 .run-buddy-text {
@@ -162,6 +174,7 @@ header nav ul li a {
     justify-content: space-between;
 }
 
+
 .small-works img {
     border: 4px solid var(--secondary-color);
     height: 200px;
@@ -171,6 +184,10 @@ header nav ul li a {
 .surf-report {
     position: relative;
     text-align: left;
+}
+
+.surf-report:hover {
+    opacity: 80%;
 }
 
 .surf-report-text {
@@ -194,6 +211,10 @@ header nav ul li a {
     text-align: left;
 }
 
+.led-wall:hover {
+    opacity: 80%;
+}
+
 .led-wall-text {
     position: absolute;
     bottom: 70px;
@@ -215,6 +236,10 @@ header nav ul li a {
     text-align: left;
 }
 
+.calculator:hover {
+    opacity: 80%;
+}
+
 .calculator-text {
     position: absolute;
     bottom: 70px;
@@ -234,6 +259,10 @@ header nav ul li a {
 .pastel-puzzels {
     position: relative;
     text-align: left;
+}
+
+.pastel-puzzels:hover {
+    opacity: 80%;
 }
 
 .pastel-puzzels-text {
@@ -268,8 +297,7 @@ header nav ul li a {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    border-left: 5px solid var(--primary-color);
-    padding: 8px;
+    margin: -28px;
 }
 
 .contact-info ul li {
@@ -289,3 +317,11 @@ header nav ul li a {
     font-weight: bold;
 }
 
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+
+    .contact-info ul {
+    justify-content: space-between;
+    margin: 30px;
+    }
+}
