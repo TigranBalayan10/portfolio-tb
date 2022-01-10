@@ -12,7 +12,7 @@ A website that showcases Tigran Balayan's portfolio.
 * CSS
 
 ## Website
-placeholder
+https://tigranbalayan10.github.io/portfolio-tb/
 
 ## Contribution
 Made by Tigran Balayan
