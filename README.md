@@ -3,6 +3,10 @@
 ## Purpose
 A website that showcases Tigran Balayan's portfolio.
 
+## Screenshot
+
+![Getting Started](./mockup.jpg)
+
 ## Built With
 * HTML
 * CSS
