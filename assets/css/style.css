@@ -186,6 +186,7 @@ header nav ul li a:hover {
     border: 4px solid var(--secondary-color);
     height: 200px;
     margin: 10px 70px 0 30px;
+    width: 507px;
 }
 
 .surf-report {
